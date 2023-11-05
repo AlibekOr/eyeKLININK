@@ -1,0 +1,60 @@
+.header {
+    background-color: rgb(8, 28, 114);
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    &__navLink {
+        color: #ffff;
+        text-decoration: none;
+    }
+}
+
+.home {
+    display: flex;
+    gap: 20px;
+
+    &__block {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+}
+
+.cartPage {
+    .thead__TR {
+        font-size: 22px;
+        display: flex;
+    }
+
+    &__pruduct {
+        display: flex;
+        padding: 20px;
+        flex-direction: row;
+        gap: 50px;
+
+        .coutn {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            margin-top: 10px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .price {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            & button:last-child {
+                background-color: red;
+                color:#fff;
+            }
+        }
+    }
+}
